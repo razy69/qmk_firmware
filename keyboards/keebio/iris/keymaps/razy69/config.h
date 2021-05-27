@@ -17,17 +17,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #pragma once
 
-// #define USE_I2C
-#define EE_HANDS
-
-// Lighting Layers
-#undef RGBLED_NUM
-#define RGBLIGHT_EFFECT_STATIC_GRADIENT
-#define RGBLIGHT_EFFECT_RAINBOW_SWIRL
-#define RGBLED_NUM 12
-#define RGBLIGHT_HUE_STEP 8
-#define RGBLIGHT_SAT_STEP 8
-#define RGBLIGHT_LAYERS
-
 // Other
 #define TAPPING_TOGGLE 2
+#define MK_COMBINED
